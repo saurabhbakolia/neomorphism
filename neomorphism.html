@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Neumorphism</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      div {
+        width: 100vw;
+        height: 100vh;
+        background-color: #f2f2f2;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        cursor: pointer;
+      }
+      ul li {
+        width: 100px;
+        height: 100px;
+        padding: 0.5em 0.5em;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+        font-size: 3rem;
+        color: #000;
+        border-radius: 32px;
+        background: #f2f2f2;
+        box-shadow: 7px 7px 14px #c2c2c2, -7px -7px 14px #ffffff;
+        transition: all 0.4s ease-in-out;
+      }
+
+      ul li:nth-child(1) {
+        color: #4267b2;
+      }
+
+      ul li:nth-child(2) {
+        color: #1da1f2;
+      }
+      ul li:nth-child(3) {
+        color: #c13584;
+      }
+      ul li:nth-child(4) {
+        color: #0077b5;
+      }
+
+      ul li:nth-child(5) {
+        color: #333;
+      }
+
+      ul li:nth-child(6) {
+        color: #7289da;
+      }
+
+      ul li:hover {
+        transform: translateY(-36px);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-linkedin-in"></i></li>
+        <li><i class="fa-brands fa-github"></i></li>
+        <li><i class="fa-brands fa-discord"></i></li>
+      </ul>
+    </div>
+  </body>
+</html>
